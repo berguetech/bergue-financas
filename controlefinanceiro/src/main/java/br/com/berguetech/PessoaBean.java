@@ -1,7 +1,13 @@
+/** @author Cristhian Felipe Eichembergue */
+
 package br.com.berguetech;
 
+import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ViewScoped;
 
+@SuppressWarnings("unused")
+@ViewScoped
 @ManagedBean(name = "pessoaBean") //backend
 public class PessoaBean {
 
